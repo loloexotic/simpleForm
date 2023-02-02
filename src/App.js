@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import results from "./components/Results";
+import Results from "./components/Results";
 
 function App() {
   const [name, setName] = useState("");
@@ -69,6 +69,8 @@ function App() {
           />
         </label>
         <button type="submit">Register</button>
+        {/* il faut return setEmail, setName, setPassword but how??
+        that's doesn't work */}
       </form>
 
       <footer>Made with React at Le Reacteur By Laura ✌🏾 </footer>

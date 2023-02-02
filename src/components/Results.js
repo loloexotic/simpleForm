@@ -1,3 +1,10 @@
 import App from "../App";
 
-const Results = App(name, email, password);
+const Results = (props) => {
+  return (
+    <div>
+      <h1>Results</h1>
+      <div>setName set;</div>
+    </div>
+  );
+};
